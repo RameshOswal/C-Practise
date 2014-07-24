@@ -1,4 +1,4 @@
-﻿Build started 7/24/2014 2:31:57 PM.
+﻿Build started 7/24/2014 3:26:47 PM.
      1>Project "C:\Users\admin\Documents\Visual Studio 2010\Projects\practise c\practise c\practise c.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\practise c.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -6,10 +6,10 @@
          All outputs are up-to-date.
          C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\practise c.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "practise c.cpp"
          practise c.cpp
-     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(71): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(110): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(112): warning C4305: '=' : truncation from 'int' to 'char'
-     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(112): warning C4309: '=' : truncation of constant value
+     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(113): warning C4305: '=' : truncation from 'int' to 'char'
+     1>c:\users\admin\documents\visual studio 2010\projects\practise c\practise c\practise c.cpp(113): warning C4309: '=' : truncation of constant value
        Link:
          C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\Visual Studio 2010\Projects\practise c\Debug\practise c.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\practise c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\practise c\Debug\practise c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\practise c\Debug\practise c.lib" /MACHINE:X86 "Debug\practise c.obj"
          Debug\stdafx.obj

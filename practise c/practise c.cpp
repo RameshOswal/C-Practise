@@ -26,10 +26,11 @@ string q2(string s);
 void q3();
 void q4();
 void q5(string s);
+void q7();
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int temp;
-	q5("hello ramesh");
+	q7();
 	
 	cin>>temp;
 	return 0;
@@ -117,11 +118,38 @@ void q6(){}
 
 void printmatrix(int x[][10],int m,int n)
 {
-	for(i=0;im;i++)
-		for(j=0;j<n;j++)
-			printf("\t")
+	printf("printfing array\n");
+	for(int i=0;i<m;i++,printf("\n"))
+		for(int j=0;j<n;j++)
+			printf("\t%d",x[i][j]%1000);
+
 	
 }
 
 void q7()
-{}
+{
+	int x[10][10]={{1,2,3,4,5},{6,7,0,9,10},{11,12,13,14,15},{16,17,18,19,20}};
+	int row[20],col[20],cnt=-1;
+	int m=4,n=5;
+	printmatrix(x,4,5);
+	for(int i=0;i<m;i++)
+	{
+		for(int j=0;j<n;j++)
+			if(x[i][j]==0)
+			{
+				cnt++;
+				row[cnt]=i;
+				col[cnt]=j;
+			}
+	}//identified zeros and put their poistion in row and col and cnt
+	for(int i=0;i<=cnt;i++)
+	{
+		//make row and coll zero of all zero
+		for(int j=0;j<n;j++)
+			x[row[i]][j]=0;
+		for(int j=0;j<m;j++)
+			x[j][col[i]]=0;
+	}
+	printmatrix(x,4,5);
+
+}
